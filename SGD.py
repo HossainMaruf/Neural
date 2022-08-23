@@ -24,4 +24,5 @@ for i in range(D.shape[1]):
     x = np.reshape(X[i], (3,1))
     v = np.dot(W,x)
     y = sigmoid(v)
+    print(y)
     print(np.round(y))

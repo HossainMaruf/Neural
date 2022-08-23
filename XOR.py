@@ -37,4 +37,5 @@ for j in range(D.shape[1]):
         y1 = sigmoid(v1)
         v2 = np.dot(W2,y1)
         y = sigmoid(v2)
+        print(y)
         print(np.round(y))
